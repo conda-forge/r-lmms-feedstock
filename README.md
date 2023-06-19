@@ -1,11 +1,11 @@
-About r-lmms
-============
+About r-lmms-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-lmms-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=lmms
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-lmms-feedstock/blob/main/LICENSE.txt)
 
 Summary: Linear Mixed effect Model Splines ('lmms') implements linear mixed effect model splines for modelling and differential expression for highly dimensional data sets: investNoise() for quality control and filterNoise() for removing non-informative trajectories; lmmSpline() to model time course expression profiles and lmmsDE() performs differential expression analysis to identify differential expression between groups, time and/or group x time interaction.
 
