@@ -1,6 +1,5 @@
 {% set version = '1.3.3' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-lmms
@@ -13,8 +12,7 @@ source:
   sha256: c300e2d92b570f70e99ee638f2ef214ba1fcf97fdfb1a37cabb7d29b26a42abf
 
 build:
-  merge_build_host: True  # [win]
-  number: 3
+  number: 4
   noarch: generic
   rpaths:
     - lib/R/lib/
